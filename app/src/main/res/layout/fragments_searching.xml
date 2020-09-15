@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:layout_marginTop="25dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SearchView
+        android:id="@+id/simpleSearchView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+
+
+        android:background="@color/com_facebook_primary_button_pressed_text_color"
+        android:clickable="true"
+        android:clipChildren="true"
+        android:clipToPadding="true"
+        android:queryHint="Search Here"
+        android:gravity="top"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+    <ImageView
+        android:id="@+id/findProductsImageView"
+        android:layout_width="match_parent"
+        android:layout_height="388dp"
+        android:contentDescription="TODO"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/simpleSearchView" />
+
+
+    <TextView
+        android:id="@+id/findTextViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="154dp"
+        android:layout_margin="10dp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/findProductsImageView" />
+
+    <TextView
+        android:id="@+id/findTextViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/findTextViewName" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

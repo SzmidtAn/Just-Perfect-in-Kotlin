@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:title="Home"
+        android:icon="@mipmap/home_foreground"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_searching"
+        android:title="Search"
+        android:icon="@mipmap/search_foreground"
+ />
+
+
+    <item
+        android:id="@+id/action_add"
+
+   />
+
+    <item
+        android:id="@+id/action_messages"
+        android:title="Messages"
+        android:icon="@mipmap/messages_white_foreground"
+ />
+
+    <item
+        android:id="@+id/action_favoriter"
+        android:title="Favourites"
+        android:icon="@mipmap/favoriter_white_foreground" />
+</menu>
